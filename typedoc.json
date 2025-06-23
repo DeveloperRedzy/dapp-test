@@ -1,0 +1,64 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "name": "Sui NFT DApp Documentation",
+  "entryPoints": [
+    "./hooks/**/*.ts",
+    "./lib/**/*.ts", 
+    "./types/**/*.ts",
+    "./components/**/*.tsx",
+    "./providers/**/*.tsx"
+  ],
+  "entryPointStrategy": "expand",
+  "out": "./docs",
+  "theme": "default",
+  "includeVersion": true,
+  "excludePrivate": false,
+  "excludeProtected": false,
+  "excludeExternals": true,
+  "readme": "./README.md",
+
+  "gitRevision": "main",
+  "hideGenerator": false,
+  "sort": ["source-order"],
+  "kindSortOrder": [
+    "Document",
+    "Project",
+    "Module",
+    "Namespace",
+    "Enum",
+    "EnumMember", 
+    "Class",
+    "Interface",
+    "TypeAlias",
+    "Constructor",
+    "Property",
+    "Variable",
+    "Function",
+    "Accessor",
+    "Method",
+    "Parameter",
+    "TypeParameter",
+    "TypeLiteral",
+    "CallSignature",
+    "ConstructorSignature",
+    "IndexSignature",
+    "GetSignature",
+    "SetSignature"
+  ],
+  "categorizeByGroup": false,
+  "defaultCategory": "Other",
+  "categoryOrder": [
+    "Hooks",
+    "Components", 
+    "Types",
+    "Utilities",
+    "Constants",
+    "*"
+  ],
+  "searchInComments": true,
+  "validation": {
+    "notExported": true,
+    "invalidLink": true,
+    "notDocumented": false
+  }
+} 
